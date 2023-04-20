@@ -2,7 +2,7 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-family: ubuntu;
-    color: #161616;}
+    color: gold;}
 
 
 header{
@@ -17,6 +17,21 @@ header{
     font-size: 100px;
     margin: auto;
     padding: auto;
-    color: #151515;
+    color: gold;
 
+}
+
+.rows{
+    margin: 5px 12px;
+    padding: 0px 10px;
+
+}
+
+#row1, #row3{
+    margin: 10px auto;
+    background-color: #151515;
+    border: 2px solid gold;
+    border-radius: 10px;
+    width: 100vw;
+    height: 30vh;
 }
