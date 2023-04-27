@@ -1,0 +1,124 @@
+*{margin: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-family: ubuntu;
+    color: gold;}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: black;
+    align-items: center;
+    border-bottom: 5px solid gold;
+}
+
+.titlename{
+    font-size: 30px;
+    text-align: center;
+    margin: auto auto;
+    margin: 12px auto;
+    
+}
+
+h3{margin: 6px auto;
+    font-size: 16pt;
+    text-transform: uppercase; text-align: center}
+nav {
+    display: flex;
+    background-color: #151515e7;
+    width: 100vw;
+    height: 10vh;
+    
+
+}
+
+a:hover{ border-right: 3px solid gold ;
+        }
+
+a, li, ul{
+    text-decoration: none;
+    padding: 0px 12px;
+    margin: 12px auto;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+.name
+{font-size: 18pt;
+letter-spacing: 2px;
+margin: 12px;
+font-family: oswald;}
+
+.pbox{
+    width: 100vw;
+    background-color: black;
+    display: inline-flex;
+    border-bottom: 1px solid gold;
+}
+
+.pp {
+    width: 170px;
+    height: 170px;
+    border-radius: 100px;
+    background-image: url(../Images/jade.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: gold;
+    margin: 27px 5px;
+
+}
+
+.pn{
+    width: 65%;
+    height: 80%;
+    border-radius: 10px;
+    margin: 12px 5px;
+    text-align: left;
+}
+
+.intro, .m, .v, .p {
+    margin: 12px 24px;
+    font-size: 14pt;
+    text-align: left;
+}
+
+.kn{
+    width: 100vw;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #151515;
+    border-top: 2px solid gold;
+    width: 100vw;
+    height: 10vh;
+}
+
+.testimony{
+    width: 100vw;
+    display: inline-flex;
+    background-color: black;
+    align-items: center;
+}
+
+.t1, .t2, .t3 {
+    width: 30%;
+    display: inline-flex;
+    background-color: black;
+    text-align: center;
+    margin: 5px;
+}
+
+.tt1, .tt2, .tt3 {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+    border-radius: 100%;
+    margin: 5px;
+}
+
