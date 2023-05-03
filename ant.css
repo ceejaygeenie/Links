@@ -1,0 +1,12 @@
+h1, a {
+    text-align: center;
+    font: 500px;
+    color: rgb(34, 34, 163);
+    text-decoration: none;
+
+}
+
+nav {text-align: center;
+    width: 100vw;
+    text-decoration: none;
+}
