@@ -3,7 +3,13 @@
     scroll-behavior: smooth;
     font-family: ubuntu;
     color: gold;}
-
+footer{
+        background-color: #151515;
+        border-top: 2px solid gold;
+        width: 100vw;
+        height: 10vh;
+        text-align: center;
+    }
 header{
     width: 100vw;
     height: 15vh;
@@ -98,4 +104,9 @@ a, li, ul{
    
            .img:hover{zoom: 140%;
             border-bottom: 3px solid gold;}
-   
+
+
+            .icons{
+                font-size: 23px;
+                margin: 12px;
+            }
